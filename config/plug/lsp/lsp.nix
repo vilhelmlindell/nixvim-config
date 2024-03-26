@@ -10,6 +10,7 @@
         marksman = {enable = true;};
         pyright = {enable = true;};
         gopls = {enable = true;};
+        omnisharp = {enable = true;};
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         yamlls = {enable = true;};
