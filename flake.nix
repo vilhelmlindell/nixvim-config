@@ -57,6 +57,7 @@
             hooks = {
               statix.enable = true;
               alejandra.enable = true;
+              rustfmt.enable = true;
             };
           };
         };

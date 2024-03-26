@@ -84,6 +84,6 @@
         type = "text";
         val = "https://github.com/elythh/nixvim";
       }
-    ];
+    #];
   };
 }

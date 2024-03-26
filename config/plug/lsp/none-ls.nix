@@ -33,6 +33,7 @@
         };
         stylua = {enable = true;};
         yamlfmt = {enable = true;};
+        csharpier = {enable = true;};
       };
     };
   };
