@@ -14,9 +14,12 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         java-language-server = {enable = true;};
-        rust-analyzer = {enable = true;};
+        #rust-analyzer = {enable = false;};
         yamlls = {enable = true;};
       };
+      #onAttach = ''
+      #  client.server_capabilities.semanticTokensProvider = nil
+      #'';
       keymaps = {
         silent = true;
         lspBuf = {

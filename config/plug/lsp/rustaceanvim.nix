@@ -1,5 +1,10 @@
 {
   plugins.rustaceanvim = {
-    enable = false;
+    enable = true;
+    server.onAttach = ''
+      function(client, bufnr)
+        client.server_capabilities.semanticTokensProvider = nil
+      end,
+    '';
   };
 }

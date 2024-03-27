@@ -19,7 +19,7 @@
     ./plug/lsp/lsp.nix
     ./plug/lsp/lspsaga.nix
     ./plug/lsp/none-ls.nix
-    ./plug/lsp/rustaceanvim.nix
+    ./plug/lsp/rust.nix
 
     ./plug/notes/markdown-preview.nix
 
@@ -42,7 +42,7 @@
     ./plug/utils/dap.nix
     ./plug/utils/flash.nix
     ./plug/utils/hardtime.nix
-    #./plug/utils/harpoon.nix
+    ./plug/utils/harpoon.nix
     ./plug/utils/grapple.nix
     ./plug/utils/illuminate.nix
     ./plug/utils/nvim-autopairs.nix
@@ -50,5 +50,7 @@
     ./plug/utils/undotree.nix
     ./plug/utils/ufo.nix
     ./plug/utils/whichkey.nix
+    ./plug/utils/neoscroll.nix
+    ./plug/utils/rainbow-delimiters.nix
   ];
 }
