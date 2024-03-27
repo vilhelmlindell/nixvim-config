@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   plugins.treesitter = {
-    enable = true;
+    enable = false;
     indent = true;
     folding = true;
     nixvimInjections = true;
