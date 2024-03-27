@@ -13,6 +13,7 @@
         omnisharp = {enable = true;};
         terraformls = {enable = true;};
         tsserver = {enable = true;};
+        java-language-server = {enable = true;};
         yamlls = {enable = true;};
       };
       keymaps = {

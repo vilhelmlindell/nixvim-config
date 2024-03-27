@@ -14,6 +14,7 @@
       };
       formatting = {
         alejandra = {enable = true;};
+        astyle = {enable = true;};
         black = {
           enable = true;
           withArgs = ''
