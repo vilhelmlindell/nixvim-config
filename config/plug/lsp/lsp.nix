@@ -14,6 +14,7 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         java-language-server = {enable = true;};
+        rust-analyzer = {enable = true;};
         yamlls = {enable = true;};
       };
       keymaps = {
