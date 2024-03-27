@@ -50,7 +50,6 @@
     ./plug/utils/undotree.nix
     ./plug/utils/ufo.nix
     ./plug/utils/whichkey.nix
-    ./plug/utils/neoscroll.nix
     ./plug/utils/rainbow-delimiters.nix
   ];
 }
