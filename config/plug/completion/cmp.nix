@@ -87,7 +87,7 @@
             Event = "",
             Operator = "",
             TypeParameter = "",
-          } 
+          }
 
            local cmp = require'cmp'
 
@@ -120,5 +120,6 @@
     --       return vim_item
     --      end
     -- }
-       })  '';
+       })
+  '';
 }

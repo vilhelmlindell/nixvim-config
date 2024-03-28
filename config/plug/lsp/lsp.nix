@@ -14,12 +14,9 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         java-language-server = {enable = true;};
-        #rust-analyzer = {enable = false;};
+        rust-analyzer = {enable = true;};
         yamlls = {enable = true;};
       };
-      #onAttach = ''
-      #  client.server_capabilities.semanticTokensProvider = nil
-      #'';
       keymaps = {
         silent = true;
         lspBuf = {
@@ -59,10 +56,10 @@
             action = "code_action";
             desc = "Code Action";
           };
-          # "<C-k>" = {
-          #   action = "signature_help";
-          #   desc = "Signature Help";
-          # };
+          "<C-k>" = {
+            action = "signature_help";
+            desc = "Signature Help";
+          };
         };
         diagnostic = {
           "<leader>cd" = {
@@ -102,6 +99,11 @@
 
     require('lspconfig.ui.windows').default_options = {
       border = _border
+    }
+    local capabilities = require('cmp_nvim_lsp').default_capabilities()
+    -- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
+    require('lspconfig')['rust-analyzer'].setup {
+      capabilities = capabilities
     }
   '';
 }
