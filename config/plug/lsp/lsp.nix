@@ -17,7 +17,7 @@
         #rust-analyzer = {enable = true;};
         yamlls = {enable = true;};
       };
-      onAttach = "client.server_capabilities.semanticTokensProvider = nil";
+      #onAttach = "client.server_capabilities.semanticTokensProvider = nil";
       keymaps = {
         silent = true;
         lspBuf = {
