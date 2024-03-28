@@ -19,7 +19,7 @@
     ./plug/lsp/lsp.nix
     ./plug/lsp/lspsaga.nix
     ./plug/lsp/none-ls.nix
-    #./plug/lsp/rust.nix
+    ./plug/lsp/rust.nix
 
     ./plug/notes/markdown-preview.nix
 
