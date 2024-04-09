@@ -1,6 +1,6 @@
 {inputs, ...}: let
-  colorScheme = inputs.nix-colors.colorSchemes.rose-pine;
-  #colorScheme = inputs.nix-colors.colorSchemes.catppuccin-mocha;
+  #colorScheme = inputs.nix-colors.colorSchemes.rose-pine;
+  colorScheme = inputs.nix-colors.colorSchemes.catppuccin-mocha;
 in {
   colorschemes = {
     base16 = {

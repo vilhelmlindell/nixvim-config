@@ -19,6 +19,7 @@
     ./plugins/lsp/none-ls.nix
     ./plugins/lsp/rust.nix
     ./plugins/lsp/trouble.nix
+    ./plugins/lsp/haskell.nix
 
     ./plugins/notes/markdown-preview.nix
 
@@ -38,7 +39,7 @@
     ./plugins/ui/telescope-zoxide.nix
     ./plugins/ui/telescope.nix
 
-    ./plugins/utils/dap.nix
+    #./plugins/utils/dap.nix
     ./plugins/utils/flash.nix
     #./plugins/utils/hardtime.nix
     #./plugins/utils/harpoon.nix
@@ -49,6 +50,7 @@
     ./plugins/utils/undotree.nix
     ./plugins/utils/ufo.nix
     ./plugins/utils/whichkey.nix
+    #./plugins/utils/zellij.nix
     #./plugins/utils/rainbow-delimiters.nix
     #./plugins/utils/indent-blankline.nix
   ];

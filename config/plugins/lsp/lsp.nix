@@ -28,6 +28,7 @@
         #    };
         #  };
         #};
+        #hls = {enable = true;};
         yamlls = {enable = true;};
       };
       #onAttach = ''

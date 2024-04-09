@@ -21,6 +21,7 @@
       rust = ["rustfmt"];
       markdown = [["prettierd" "prettier"]];
       yaml = ["yamllint" "yamlfmt"];
+      haskell = ["fourmolu"];
     };
   };
 }

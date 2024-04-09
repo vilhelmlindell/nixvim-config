@@ -1,5 +1,0 @@
-{
-  plugins.neotest = {
-    enable = true;
-  };
-}
