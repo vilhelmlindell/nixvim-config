@@ -4,7 +4,7 @@
 in {
   colorschemes = {
     base16 = {
-      enable = true;
+      enable = false;
       colorscheme = {
         base00 = "#${colorScheme.palette.base00}";
         base01 = "#${colorScheme.palette.base01}";
@@ -24,5 +24,6 @@ in {
         base0F = "#${colorScheme.palette.base0F}";
       };
     };
+    catppuccin.enable = true;
   };
 }

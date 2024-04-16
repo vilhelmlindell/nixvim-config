@@ -5,7 +5,6 @@
 
     ./plugins/colorscheme/colorscheme.nix
     ./plugins/completion/cmp.nix
-    #./plugins/completion/copilot-cmp.nix
     #./plugins/completion/lsp-signature.nix
     ./plugins/completion/lspkind.nix
 
