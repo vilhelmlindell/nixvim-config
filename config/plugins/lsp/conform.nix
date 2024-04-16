@@ -22,6 +22,7 @@
       markdown = [["prettierd" "prettier"]];
       yaml = ["yamllint" "yamlfmt"];
       haskell = ["fourmolu"];
+      go = ["gofmt"];
     };
   };
 }
