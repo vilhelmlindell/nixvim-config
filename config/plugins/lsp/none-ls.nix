@@ -36,6 +36,7 @@
         yamlfmt = {enable = true;};
         csharpier = {enable = true;};
         gofmt = {enable = true;};
+        google_java_format = {enable = true;};
       };
     };
   };

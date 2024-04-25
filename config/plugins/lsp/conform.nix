@@ -15,7 +15,7 @@
       typescript = [["prettierd" "prettier"]];
       typescriptreact = [["prettierd" "prettier"]];
       python = ["black"];
-      java = ["astyle"];
+      java = ["google-java-format"];
       lua = ["stylua"];
       csharp = ["csharpier"];
       rust = ["rustfmt"];
