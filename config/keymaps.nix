@@ -57,32 +57,32 @@
       action = "+code";
     }
 
-    {
-      mode = ["n" "v"];
-      key = "<leader>t";
-      action = "+test";
-    }
+    #{
+    #  mode = ["n" "v"];
+    #  key = "<leader>t";
+    #  action = "+test";
+    #}
 
-    # Tabs
-    {
-      mode = "n";
-      key = "<leader><tab><tab>";
-      action = "<cmd>tabnew<cr>";
-      options = {
-        silent = true;
-        desc = "New Tab";
-      };
-    }
+    ## Tabs
+    #{
+    #  mode = "n";
+    #  key = "<leader><tab><tab>";
+    #  action = "<cmd>tabnew<cr>";
+    #  options = {
+    #    silent = true;
+    #    desc = "New Tab";
+    #  };
+    #}
 
-    {
-      mode = "n";
-      key = "<leader><tab>d";
-      action = "<cmd>tabclose<cr>";
-      options = {
-        silent = true;
-        desc = "Close tab";
-      };
-    }
+    #{
+    #  mode = "n";
+    #  key = "<leader><tab>d";
+    #  action = "<cmd>tabclose<cr>";
+    #  options = {
+    #    silent = true;
+    #    desc = "Close tab";
+    #  };
+    #}
 
     # Windows
     {
@@ -186,15 +186,15 @@
       };
     }
 
-    {
-      mode = "n";
-      key = "<leader>uL";
-      action = ":lua ToggleRelativeLineNumber()<cr>";
-      options = {
-        silent = true;
-        desc = "Toggle Relative Line Numbers";
-      };
-    }
+    #{
+    #  mode = "n";
+    #  key = "<leader>uL";
+    #  action = ":lua ToggleRelativeLineNumber()<cr>";
+    #  options = {
+    #    silent = true;
+    #    desc = "Toggle Relative Line Numbers";
+    #  };
+    #}
 
     {
       mode = "n";

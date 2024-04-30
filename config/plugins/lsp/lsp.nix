@@ -9,24 +9,24 @@
         nil_ls = {enable = true;};
         marksman = {enable = true;};
         pyright = {enable = true;};
-        gopls = {
-          enable = true;
-          extraOptions = {
-            capabilities = {
-              textDocument = {
-                completion = {
-                  completionItem = {
-                    snippetSupport = false;
-                  };
-                };
-              };
-            };
-          };
-        };
+        #gopls = {
+        #  enable = true;
+        #  extraOptions = {
+        #    capabilities = {
+        #      textDocument = {
+        #        completion = {
+        #          completionItem = {
+        #            snippetSupport = false;
+        #          };
+        #        };
+        #      };
+        #    };
+        #  };
+        #};
         omnisharp = {enable = true;};
         terraformls = {enable = true;};
         tsserver = {enable = true;};
-        java-language-server = {enable = true;};
+        #java-language-server = {enable = true;};
         #rust-analyzer = {
         #  enable = true;
         #  extraOptions = {
