@@ -5,6 +5,8 @@
 
     ./plugins/colorscheme/colorscheme.nix
 
+    ./plugins/snippets/luasnip.nix
+
     ./plugins/completion/cmp.nix
     ./plugins/completion/lspkind.nix
     #./plugins/completion/lsp-signature.nix
@@ -21,10 +23,6 @@
 
     ./plugins/lsp/filetypes/rust.nix
     ./plugins/lsp/filetypes/haskell.nix
-    ./plugins/lsp/filetypes/java.nix
-    ./plugins/lsp/filetypes/go.nix
-
-    ./plugins/snippets/luasnip.nix
 
     ./plugins/treesitter/treesitter-context.nix
     ./plugins/treesitter/treesitter-textobjects.nix

@@ -24,7 +24,7 @@ in {
         base0F = "#${colorScheme.palette.base0F}";
       };
     };
-    catppuccin.enable = false;
-    tokyonight.enable = true;
+    catppuccin.enable = true;
+    #tokyonight.enable = true;
   };
 }

@@ -9,39 +9,11 @@
         nil_ls = {enable = true;};
         marksman = {enable = true;};
         pyright = {enable = true;};
-        #gopls = {
-        #  enable = true;
-        #  extraOptions = {
-        #    capabilities = {
-        #      textDocument = {
-        #        completion = {
-        #          completionItem = {
-        #            snippetSupport = false;
-        #          };
-        #        };
-        #      };
-        #    };
-        #  };
-        #};
         omnisharp = {enable = true;};
         terraformls = {enable = true;};
         tsserver = {enable = true;};
-        #java-language-server = {enable = true;};
-        #rust-analyzer = {
-        #  enable = true;
-        #  extraOptions = {
-        #    capabilities = {
-        #      textDocument = {
-        #        completion = {
-        #          completionItem = {
-        #            snippetSupport = true;
-        #          };
-        #        };
-        #      };
-        #    };
-        #  };
-        #};
-        #hls = {enable = true;};
+        gopls = {enable = true;};
+        java-language-server = {enable = true;};
         yamlls = {enable = true;};
       };
       #onAttach = ''
@@ -108,4 +80,19 @@
       };
     };
   };
+
+  extraConfigLua = ''
+    local lspconfig = require("lspconfig")
+    lspconfig.gopls.setup({
+      settings = {
+        gopls = {
+          analyses = {
+            unusedparams = true,
+          },
+          staticcheck = true,
+          usePlaceholders = true,
+        },
+      },
+    })
+  '';
 }
