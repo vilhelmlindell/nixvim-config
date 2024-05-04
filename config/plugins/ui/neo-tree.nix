@@ -4,7 +4,7 @@
   };
   keymaps = [
     {
-      mode = ["n" "i"];
+      mode = ["n"];
       key = "<leader>e";
       action = "<cmd>Neotree toggle right<cr>";
       options = {
