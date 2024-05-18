@@ -17,6 +17,16 @@
           };
         };
         sorting_strategy = "ascending";
+        mappings = {
+          i = {
+            "<C-j>" = {
+              __raw = "require('telescope.actions').move_selection_next";
+            };
+            "<C-k>" = {
+              __raw = "require('telescope.actions').move_selection_previous";
+            };
+          };
+        };
       };
     };
     keymaps = {
@@ -74,12 +84,12 @@
           desc = "Buffers";
         };
       };
-      "<C-p>" = {
-        action = "git_files, {}";
-        options = {
-          desc = "Search git files";
-        };
-      };
+      #"<C-p>" = {
+      #  action = "git_files, {}";
+      #  options = {
+      #    desc = "Search git files";
+      #  };
+      #};
       "<leader>gc" = {
         action = "git_commits, {}";
         options = {
@@ -170,11 +180,23 @@
           desc = "Colorscheme preview";
         };
       };
+      #"<C-j>" = {
+      #  action = "move_selection_next";
+      #  options = {
+      #    desc = "Next item";
+      #  };
+      #};
+      #"<C-k>" = {
+      #  action = "move_selection_previous";
+      #  options = {
+      #    desc = "Previous item";
+      #  };
+      #};
     };
   };
   keymaps = [
     {
-      mode = "n";
+      mode = "";
       key = "<leader>sd";
       action = "<cmd>Telescope diagnostics bufnr=0<cr>";
       options = {

@@ -23,6 +23,7 @@
 
     ./plugins/lsp/filetypes/rust.nix
     ./plugins/lsp/filetypes/haskell.nix
+    ./plugins/lsp/filetypes/java.nix
 
     ./plugins/treesitter/treesitter-context.nix
     ./plugins/treesitter/treesitter-textobjects.nix

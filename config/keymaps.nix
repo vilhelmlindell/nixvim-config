@@ -8,6 +8,11 @@
       key = "<leader>f";
       action = "+find/file";
     }
+    {
+      mode = "n";
+      key = "<Esc>";
+      action = "<cmd>nohlsearch<cr>";
+    }
 
     {
       mode = "n";
@@ -45,11 +50,11 @@
       action = "+tab";
     }
 
-    {
-      mode = ["n" "v"];
-      key = "<leader>d";
-      action = "+debug";
-    }
+    #{
+    #  mode = ["n" "v"];
+    #  key = "<leader>d";
+    #  action = "+debug";
+    #}
 
     {
       mode = ["n" "v"];

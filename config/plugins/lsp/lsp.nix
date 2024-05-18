@@ -13,7 +13,8 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         gopls = {enable = true;};
-        java-language-server = {enable = true;};
+        clangd = {enable = true;};
+        gdscript = {enable = true;};
         yamlls = {enable = true;};
       };
       #onAttach = ''
