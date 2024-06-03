@@ -23,19 +23,20 @@
             }
           '';
         };
-        prettier = {
-          enable = true;
-          disableTsServerFormatter = true;
-          withArgs = ''
-            {
-              extra_args = { "--no-semi", "--single-quote" },
-            }
-          '';
-        };
+        #prettier = {
+        #  enable = true;
+        #  disableTsServerFormatter = true;
+        #  withArgs = ''
+        #    {
+        #      extra_args = { "--no-semi", "--single-quote" },
+        #    }
+        #  '';
+        #};
         stylua = {enable = true;};
         yamlfmt = {enable = true;};
         csharpier = {enable = true;};
         gofmt = {enable = true;};
+        clang_format = {enable = true;};
         google_java_format = {enable = true;};
       };
     };

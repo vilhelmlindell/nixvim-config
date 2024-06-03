@@ -13,7 +13,10 @@
         terraformls = {enable = true;};
         tsserver = {enable = true;};
         gopls = {enable = true;};
-        clangd = {enable = true;};
+        clangd = {
+          enable = true;
+          cmd = ["clangd" "--offset-encoding=utf-16"];
+        };
         gdscript = {enable = true;};
         yamlls = {enable = true;};
       };

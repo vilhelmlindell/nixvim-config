@@ -7,16 +7,17 @@
     };
     notifyOnError = true;
     formattersByFt = {
-      liquidsoap = ["liquidsoap-prettier"];
-      html = [["prettierd" "prettier"]];
-      css = [["prettierd" "prettier"]];
-      javascript = [["prettierd" "prettier"]];
-      javascriptreact = [["prettierd" "prettier"]];
-      typescript = [["prettierd" "prettier"]];
-      typescriptreact = [["prettierd" "prettier"]];
+      #liquidsoap = ["liquidsoap-prettier"];
+      #html = [["prettierd" "prettier"]];
+      #css = [["prettierd" "prettier"]];
+      #javascript = [["prettierd" "prettier"]];
+      #javascriptreact = [["prettierd" "prettier"]];
+      #typescript = [["prettierd" "prettier"]];
+      #typescriptreact = [["prettierd" "prettier"]];
       python = ["black"];
       java = ["google-java-format"];
       lua = ["stylua"];
+      cpp = ["clang_format"];
       csharp = ["csharpier"];
       rust = ["rustfmt"];
       markdown = [["prettierd" "prettier"]];
